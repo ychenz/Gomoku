@@ -2,7 +2,6 @@ package life.is.game.gomoku;
 
 /**
  * Created by Yuchen on 1/8/16.
- * AI algorithm thanks to  Trinh Le's source code: http://icetea09.com/blog/2014/01/27/c-5-row-ai/
  */
 public class Move {
 

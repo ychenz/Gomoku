@@ -29,15 +29,20 @@ public class Position {
         return c;
     }
 
-    public void put(int player){ this.place_holder = player; }
+    public void put(int player){
+        this.place_holder = player;
+    }
 
     public int getPlace_holder(){
+
         return this.place_holder;
     }
 
-    public void setScore(int score){ this.score = score; }
+    public void setScore(int score){
+        this.score = score; }
 
     public int getScore(){
+
         return this.score;
     }
 
@@ -46,13 +51,17 @@ public class Position {
         this.highlight = true;
     }
 
-    public int getMove(){ return this.move; }
+    public int getMove(){
+        return this.move;
+    }
 
     public boolean highlighted(){
+
         return this.highlight;
     }
 
     public void setHighlight(boolean v){
+
         this.highlight = v;
     }
 
